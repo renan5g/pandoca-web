@@ -20,7 +20,6 @@
       "@app/*": ["src/app/*"],
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
-      "@lib/*": ["src/lib/*"],
       "@pages/*": ["src/pages/*"],
       "@features/*": ["src/profiles/features/*"],
       "@services/*": ["src/services/*"],
