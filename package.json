@@ -13,6 +13,7 @@
     "react-query": "^3.34.11",
     "react-router-dom": "6",
     "styled-components": "^5.3.3",
+    "styled-icons": "^10.45.0",
     "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
