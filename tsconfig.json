@@ -19,10 +19,13 @@
     "paths": {
       "@app/*": ["src/app/*"],
       "@assets/*": ["src/assets/*"],
+      "@icons/*": ["src/assets/icons/*"],
+      "@images/*": ["src/assets/images/*"],
       "@components/*": ["src/components/*"],
-      "@pages/*": ["src/pages/*"],
-      "@features/*": ["src/profiles/features/*"],
-      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"],
+      "@lib/*": ["src/lib/*"],
+      "@admin/*": ["src/profiles/admin/*"],
+      "@user/*": ["src/profiles/user/*"],
       "@shared/*": ["src/shared/*"],
     }
 

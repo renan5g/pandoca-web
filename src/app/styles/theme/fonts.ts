@@ -1,3 +1,5 @@
+import { pxToRem } from '@shared/css';
+
 export const fonts = {
   FAMILY:
     "Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI',Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
@@ -6,15 +8,16 @@ export const fonts = {
   MEDIUM: 500,
   BOLD: 600,
   SIZES: {
-    8: '0.5rem',
-    12: '0.75rem',
-    16: '1rem',
-    18: '1.125rem',
-    24: '1.5rem',
-    32: '2rem',
-    40: '2.5rem',
-    48: '3rem',
-    56: '3.5rem',
-    64: '4rem',
+    8: pxToRem(8),
+    12: pxToRem(12),
+    16: pxToRem(16),
+    18: pxToRem(18),
+    24: pxToRem(24),
+    28: pxToRem(28),
+    32: pxToRem(32),
+    40: pxToRem(40),
+    48: pxToRem(48),
+    56: pxToRem(56),
+    64: pxToRem(64),
   },
 };

@@ -4,6 +4,7 @@ import * as S from './styles';
 
 import { ArrowDown, ArrowUp } from 'styled-icons/evaicons-solid';
 import { UserDropdown } from '../UserDropdown';
+import { Text } from '@components/Text';
 
 export const UserInfo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,8 +21,10 @@ export const UserInfo = () => {
   return (
     <S.Container>
       <S.InfoWrapper>
-        Seja bem vindo, <br />
-        <strong>{username}</strong>
+        <Text fontSize={13}>Seja bem vindo,</Text>
+        <Text bold textColor="TEXT_HEADING">
+          {username}
+        </Text>
       </S.InfoWrapper>
 
       <S.AvatarWrapper onClick={() => setIsOpen(!isOpen)}>
